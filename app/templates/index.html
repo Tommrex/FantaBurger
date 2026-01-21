@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>📜 Il Nostro Menu </h2>
+<div class="menu-container">
+    {% for panino in panini %}
+    <div class="card">
+        <h3>{{ panino.nome }}</h3>
+        <p class="desc">{{ panino.descrizione }}</p>
+        <p class="ingr"><strong>Ingredienti:</strong> {{ panino.ingredienti }}</p>
+        <span class="price">💰 {{ panino.prezzo }} Monete d'Oro</span>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
