@@ -15,7 +15,7 @@ L'applicazione implementa un'architettura **MVC** (Model-View-Controller) e oper
 ## 🛠️ Stack Tecnologico
 * **Backend:** Python 3.x, FastAPI, Uvicorn
 * **Frontend:** HTML5, CSS3, Jinja2 Templates
-* **Dati:** Struttura dati in memoria (simulazione DB persistente)
+* **Dati:** Struttura dati in memoria 
 
 ## 🚀 Installazione e Avvio
 
