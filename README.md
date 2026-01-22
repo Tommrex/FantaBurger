@@ -1,7 +1,8 @@
 # 🍔 FantaBurger - Gestionale 
 
 **FantaBurger** è una Web Application dinamica sviluppata in Python con **FastAPI**.
-Il progetto simula un sistema gestionale per una hamburgeria , permettendo di gestire un menu di panini magici e ingredienti leggendari.
+Il progetto simula un sistema gestionale per una hamburgeria , permettendo di gestire un menu di panini e ingredienti.
+In grado di aggiungere prezzo e una breve descrizione ad ogni panino.
 
 L'applicazione implementa un'architettura **MVC** (Model-View-Controller) e operazioni **CRUD** complete.
 
